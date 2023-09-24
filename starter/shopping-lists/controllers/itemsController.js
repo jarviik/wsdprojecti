@@ -1,4 +1,4 @@
-import { createItem, updateItemById } from "../services/itemService.js";
+import { createItem, updateItemById } from "../services/itemsService.js";
 import { getIdFromUrl, redirectTo } from "../utils.js";
 
 const createItemController = async (request, url) => {
