@@ -34,3 +34,5 @@ const executeQuery = async (query, params) => {
 
   return response;
 };
+
+export { executeQuery }
