@@ -1,7 +1,7 @@
 import { serve, renderFile, configure } from "./deps.js";
 import * as Controller from "./controllers/controller.js";
-import * as ListController from "./controllers/listController.js";
-import * as ItemController from "./controllers/itemController.js";
+import * as ListController from "./controllers/listsController.js";
+import * as ItemController from "./controllers/itemsController.js";
 
 configure({
     views: `${Deno.cwd()}/views/`,
