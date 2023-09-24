@@ -1,5 +1,5 @@
 import { renderFile } from "https://deno.land/x/eta@v1.12.3/mod.ts";
-import { getById, createList, getAllLists, updateById } from "../services/listService.js";
+import { getById, createList, getAllLists, updateById } from "../services/listsService.js";
 import { getIdFromUrl, redirectTo } from "../utils.js";
 
 const responseDetails = {
