@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping lists</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="container">
+      <%~ it.body %>
+    </div>
+  </body>
+</html>
